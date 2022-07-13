@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 300px;
+    height: 100px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    border: 1px solid blueviolet;
+}
+.btn{
+    font-size: 20px;
+    padding: 15px 20px;
+    border-radius: 20px;
+    border: 1px solid blueviolet;
+    background-color: white;
+}
+#minusBtn{
+    margin-left: 50px;
+}
+#addBtn{
+    margin-right: 50px;
+}
+.counter{
+    width: 200px;
+    color: blueviolet;
+    padding: 20px;
+    font-size: 20px;
+}
